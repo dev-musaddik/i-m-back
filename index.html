@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>i am back</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  
+    <div class="feet_to_mile ">
+      <div class="calcluter">
+
+        <div class="input"> <label for="frist">Input Feet :</label><input type="number" id="frist" value="00"></div>
+        <div class="submit">
+          <input type="submit" value="submit" onclick="submit()">
+        </div>
+        <div class="ans" id="ans">
+          <h2 id="feet">00</h2>
+          <h2>Feet = </h2>
+          <h2 id="mile">00 </h2>
+          <h2>Mile</h2>
+        </div>
+      </div>
+      <div class="woodCalculator">
+        <div id="note">
+          <h4>note : 1 cubic feet of wood is used to make 1 chair </h4>
+          <h4>note : 3 cubic feet of wood is used to make 1 table </h4>
+          <h4>note : 5 cubic feet of wood is used to make 1 bed </h4>
+        </div>
+        <div class="input_section">
+          <div class="input">
+            <label for="frist">How Many Chair :</label>
+            <input type="number" id="one" value="00">
+          </div>
+
+          <div class="input">
+            <label for="second">How Many Table :</label>
+            <input type="number" id="two" value="00">
+          </div>
+
+          <div class="input">
+            <label for="thard">How Many Bed :</label>
+            <input type="number" id="there" value="00">
+          </div>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="submit" onclick="submit_one()">
+        </div>
+        <div id="result">
+          <h2>We Need :&nbsp;<h2 id="ans_one">00</h2>
+            <h2> &nbsp; Cubic Feet Wood</h2>
+
+        </div>
+      </div>
+      <div class="brickCalclutor">
+        <h1>BrickCalclutor</h1>
+        <div id="note">
+          <h4> note : 1 to 10 floors building height 15 feet</h4>
+          <h4>note : 11 to 20 floors building height 12 feet</h4>
+          <h4>note : 20+ floors building height 10 feet</h4>
+          <br>
+          <h5>note : 1000 bricks are required for 1 foot height </h5>
+        </div>
+        <div class="input"> <label for="floors_input">How Many Floors Is The Building :</label><input type="number"
+            id="floors_input" value="00"></div>
+        <div class="submit">
+          <input type="submit" value="submit" onclick="floors_submit()">
+        </div>
+        <div id="ans_section">
+
+          <span><span id="usr_output">00</span> bricks are required for a <span id="usr_input">00</span> floors building
+          </span>
+
+        </div>
+        <div id="error">
+          <h2>SOMETHING ERROR</h2>
+        </div>
+      </div>
+    </div>
+  
+ 
+    <div class="animal_countrer">
+      <div id="note">
+        <h3>ANIMAL COUNTER </h3>
+        <h4>note : 50 animal in 1st 10 mile </h4>
+        <h4>note : 100 animal in next 10 mile </h4>
+        <h4>note : 300 animal in next mile </h4>
+      </div>
+
+      <div class="usr_section">
+
+        <div class="input"> <label for="frist">Input Mile :</label><input type="number" id="animal_usr" value="00"></div>
+        <div class="submit">
+         <div id="animal_ans">
+        <h3>Total : <span id="animal_ans_main">00</span> animal</h3>
+      </div> <input type="submit" value="submit" onclick="animal_submit()">
+        </div>
+      </div>
+      
+    
+  </div>
+</body>
+<script src="/index.js"></script>
+
+</html>
